@@ -1,5 +1,6 @@
 import 'package:abc/present/screens/camera_screen.dart';
-import 'package:abc/present/screens/pages/setting_page.dart';
+import 'package:abc/present/screens/pages/menu_page.dart';
+import 'package:abc/present/screens/pages/shoes_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> _widgetOptions = [
     SettingPage(),
     CameraScreen(),
+    ShoeScreen()
   ];
 
   int _selectedItemIndex = 0;
@@ -45,6 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
       items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home",backgroundColor: myIndigoblue),
         BottomNavigationBarItem(icon: Icon(Icons.auto_awesome_outlined), label: "Try Cloth",backgroundColor: myIndigoblue),
+        BottomNavigationBarItem(icon: Icon(Icons.flare_outlined), label: "Try Shoes",backgroundColor:
+        myIndigoblue),
       ],
     );
   }

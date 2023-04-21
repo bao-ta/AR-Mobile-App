@@ -40,7 +40,7 @@ class _SettingPageState extends State<SettingPage> {
                             decoration: BoxDecoration(color: Colors.grey, borderRadius: BorderRadius.circular(10)),
                             child: const Text(
                               'Văn hoá Việt Nam',
-                              style: TextStyle(fontSize: 44, fontWeight: FontWeight.w500, color: Colors.white),
+                              style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500, color: Colors.white),
                             ),
                           ),
                           SizedBox(

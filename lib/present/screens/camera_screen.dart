@@ -287,7 +287,6 @@ class _CameraScreenState extends State<CameraScreen> {
                       children: List.generate(CameraMode.values.length, (p) {
                         CameraMode mode = CameraMode.values[p];
                         bool active = cameraMode == mode;
-
                         return Expanded(
                           child: Container(
                             height: 40,
