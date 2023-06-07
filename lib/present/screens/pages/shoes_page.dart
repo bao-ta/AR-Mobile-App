@@ -1,3 +1,4 @@
+import 'package:abc/present/screens/pages/shoes_view.dart';
 import 'package:abc/present/screens/pages/webview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +25,7 @@ class ShoeScreen extends StatelessWidget {
           child: ElevatedButton(
             onPressed: () {
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => WebViewScreen('https://demo.deepar.ai/ads/new/nike/')));
+                  .push(MaterialPageRoute(builder: (context) => ShoeView('https://demo.deepar.ai/ads/new/nike/')));
             },
             child: Text('Try it ', style: TextStyle(fontSize: 23)),
             style: ElevatedButton.styleFrom(
